@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mode">
+        <a href="#">
+            <span class="link-name">Dark Mode</span>
+        </a>
+        <div class="mode-toggle">
+            <span class="switch"></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h2> Yapılacaklar</h2>
+                <i id="todo-filter" class="far fa-square"></i>
+            </div>
+            <div class="card-body has-scrollbar">
+                <ul data-filter="0" class="todo-list" id="todo-list">
+                    <!-- <div class="todo-item done">
+                        <li>Evi topla</li>
+                        <i class="fas fa-square"></i>
+                        <i class="fas fa-trash-alt"></i>
+                    </div>
+                    <div class="todo-item todo">
+                        <li>Evi topla</li>
+                        <i class="fas fa-square"></i>
+                        <i class="fas fa-trash-alt"></i>
+                    </div> Js tarafında createTodoItem() ile oluşturuldu--> 
+                </ul>
+            </div>
+            <div class="card-footer ">
+                <input type="text" id="todo-input" placeholder="Yeni todo ekle">
+                <button id="todo-button">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
